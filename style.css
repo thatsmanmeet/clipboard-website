@@ -12,6 +12,7 @@ body {
 
 .container {
   margin-top: 30px;
+  text-align: center;
 }
 
 .app-button {
@@ -41,7 +42,7 @@ body {
 footer {
   margin-top: 10px;
   width: 100%;
-  position: fixed;
+  position: static;
   bottom: 0px;
   background-color: #333;
   padding: 3px;
@@ -54,6 +55,7 @@ footer p {
 }
 
 footer a {
+  display: inline-block;
   font-size: 15px;
   color: dodgerblue;
   text-decoration: none;
