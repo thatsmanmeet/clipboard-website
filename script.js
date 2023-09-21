@@ -1,11 +1,5 @@
-gitButton = document.querySelector(".git-btn");
-izzyButton = document.querySelector(".izzy-btn");
+playStoreButton = document.querySelector(".playstore-btn");
 
-gitButton.addEventListener("click", () => {
-  window.location.href = "https://github.com/thatsmanmeet/clipboard-cleaner";
-});
-
-izzyButton.addEventListener("click", () => {
-  window.location.href =
-    "https://apt.izzysoft.de/fdroid/index/apk/com.thatsmanmeet.clipboardcleaner";
+playStoreButton.addEventListener("click", () => {
+  window.location.href = "https://play.google.com/store/apps/details?id=com.thatsmanmeet.clipboardcleaner";
 });
